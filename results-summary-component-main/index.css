@@ -12,17 +12,17 @@ body{
 .body-content{
     background-color:hsl(0, 0%, 100%);
     border-radius: 30px;
-    box-shadow: 5px 5px rgba(255, 0, 0, 0.452);
-    height: 500px;
-    width: 700px;
+    box-shadow: 15px 15px 15px 15px rgba(221, 218, 218, 0.322), 4px 4px 4px 4px rgba(226, 236, 245, 0.322);
+    height: 650px;
+    width: 950px;
     display: flex;
     flex-direction: row;
 }
 .first-content{
     background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     height: 100%;
-    width: 350px;
-    border-radius: 10%;
+    width: 500px;
+    border-radius: 30px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -30,11 +30,13 @@ body{
 .first-title{
     margin: 10%;
     color: hsl(241, 100%, 89%);
+    font-size: 35px;
+    margin-bottom: 5%;
 }
 .number-content{
     background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
-    width: 180px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     display: flex;
     flex-direction: column;
@@ -45,20 +47,21 @@ p{
     margin: 0%;
 }
 .head-number{
-    font-size: 55px;
+    font-size: 80px;
     color: hsl(0, 0%, 100%);
     text-align: center;
 }
 .bottom-number{
     display: flex;
     justify-content: center;
-    font-size: 15px;
+    font-size: 20px;
     color: hsl(241, 100%, 89%);
 }
 .great{
-    margin: 10%;
-    font-size: 25px;
+    margin: 8%;
+    font-size: 35px;
     color: hsl(0, 0%, 100%);
+    margin-bottom: 3%;
 }
 .paragraph{
     display: flex;
@@ -67,29 +70,30 @@ p{
     margin: 18%;
     margin-top: 0%;
     color: hsl(241, 100%, 89%);
+    font-size: 25px;
+    margin-bottom: 0%;
 }
 .second-content{
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    min-height: 100%;
     margin: 0%;
 }
 .second-title{
     color: hsl(224, 30%, 27%);
     padding-left: 40px;
-    font-size: 25px;
+    font-size: 35px;
+    margin-top: 10%;
 }
 .list-content{
     padding-right: 40px;
-    width: 300px;
+    width: 380px;
 }
 .item-list{
     display: flex;
     flex-direction: row;
-    margin-bottom: 5%;
+    margin-bottom: 4%;
     border-radius: 10px;
-    padding: 20px;
+    padding: 18px;
 }
 
 .reaction-content{
@@ -113,18 +117,19 @@ p{
 
 .text{
     margin-left: 5%;
-    width: 690px;
+    width: 750px;
+    font-size: 25px;
 }
 .numbers{
     width: 100%;
     display: flex;
     flex-direction: row;
+    font-size: 24px;
 }
 .first-number{
     margin-right: 10%;
     color: hsl(224, 30%, 27%);
     font-weight: bold;
-    font-size: 16px;
 }
 .second-number{
     color: hsl(225, 10%, 51%);
@@ -133,14 +138,44 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 2%;
+}
+
+@media screen and (max-width: 800px){
+    .body-content{
+        flex-direction: column;
+        width: 500px;
+        height: 1200px;
+    }
+    .paragraph{
+        margin: 4%;
+        margin-top: 0%;
+    }
+    .second-title{
+        padding-left: 60px;
+    }
+    ul{
+        padding-left: 60px;
+    }
+    .first-content{
+        height: 600px;
+    }
+    .second-content{
+        height: 650px;
+    }
 }
 .btn{
-    width: 300px;
-    height: 50px;
+    width: 320px;
+    height: 70px;
     border: none;
     border-radius: 50px;
     background-color: hsl(224, 30%, 27%);
     color: hsl(0, 0%, 100%);
+    cursor: pointer;
+    font-size: 20px;
+}
+.btn:hover{
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 ul{
     list-style: none;
