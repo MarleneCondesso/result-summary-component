@@ -52,11 +52,30 @@ Users should be able to:
                 ------
             }
         }
-```
 
+    -use rem or em when set font-size:
+        .text{
+            font-size: 1.3rem;
+        }
+```
+```html
+    -Wrap the page's whole main content in the <main> tag:
+        <body>
+            <main>
+                <div class="attribution">
+                Challenge by<a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+                Coded by <a href="#">Marlene Condesso</a>.
+                </div>
+            </main>
+        </body>
+```
 ## Author
 
 - Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
 - Twitter - [@yourusername](https://www.twitter.com/yourusername)
+
+## Acknowledgments
+I would like to thanks the user from frontendmentor.io, @Melvin Aguilar for give me your own feedback and tips on 'community feedback' of my last challenge, 'qr code challenge'. 
+It was very usefull in this challenge. THANK YOU. 
 
